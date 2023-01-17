@@ -1,0 +1,111 @@
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: Museo;
+    src: url(../fonts/Museo\ Cyrl\ 500.otf);
+}
+* {
+    box-sizing: border-box;
+}
+.header {
+    max-width: 1400px;
+}
+.header__container {
+    max-width: 1320px;
+    max-height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.header__container img{
+    width: 20px;
+    height: 20px;
+}
+.header__container a{
+    color: #60016D;
+    background-color: #C561D3;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboro, Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 8px;
+}
+.header__container a:hover{
+    color:#C561D3;  
+    background-color:#60016D;
+    border-radius: 5px;
+    transition-delay: 0.2s;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+    padding: 8px;
+}
+.main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.main h2{
+    border-left: 6px solid#228751;
+    padding-left: 7px;
+}
+.glav__container {
+    max-width: 1320px;
+    display: flex;
+    justify-content: center;
+    font-family: Roboro, Arial, Helvetica, sans-serif;
+}
+.ava img{
+    width: 400px;
+    height: 400px;
+    border: 2px solid #60016D;
+}
+.glav {
+    font-family: Museo,'Times New Roman', Times, serif;
+}
+.glav__mal{
+    max-width: 400px;
+    margin-left: 20px;
+}
+.container__osnov{
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Roboro, Arial, Helvetica, sans-serif;
+}
+.foot {
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: Roboro, Arial, Helvetica, sans-serif;
+}
+.foot__container{
+    max-width: 900px;
+    margin: 0 auto;
+    align-items: center;
+}
+.mtitle {
+    font-family: Museo,'Times New Roman', Times, serif;
+}
+.contact__mal{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+}
+.foot__container img{
+    width: 30px;
+    height: 30px;
+    margin-right: 7px;
+}
+.foot__container a{
+    text-decoration: none;
+    color: #60016D;
+}
+
+
